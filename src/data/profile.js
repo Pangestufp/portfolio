@@ -7,7 +7,7 @@ export const profile = {
   about: "Information Systems undergraduate with internship experience in in-house web application development within finance operations. Experienced in developing and maintaining internal applications. Interested in junior software developer or IT-related roles.",
   email: "FedrikPangestu1@gmail.com",
   github: "https://github.com/Pangestufp",
-  linkedin: "https://linkedin.com/in/...",
+  linkedin: "https://id.linkedin.com/in/fedrik-pangestu",
 }
 
 export const experiences = [
