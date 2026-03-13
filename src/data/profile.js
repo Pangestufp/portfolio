@@ -21,7 +21,7 @@ export const experiences = [
 ]
 
 export const skills = [
-  { category: "Backend", items: ["GO (GIN)","PHP (Laravel)","Java (Spring MVC)", "Oracle DB", "MySQL", "REST API"] },
+  { category: "Backend", items: ["GO (GIN)","PHP (Laravel)","Java (Spring MVC)", "Oracle DB", "MySQL", "PostgreSQL", "REST API"] },
   { category: "Frontend", items: ["React", "Flutter"] },
   { category: "Tools", items: ["Docker", "Git"] },
 ]
