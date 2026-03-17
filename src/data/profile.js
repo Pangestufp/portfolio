@@ -14,7 +14,7 @@ export const experiences = [
   {
     company: "PT Mayora Indah Tbk",
     role: "IT In-House Web Application Intern",
-    period: "2 February 2025 - 31 January 2026",
+    period: "3 February 2025 - 2 February 2026",
     desc: "Developed and supported internal web-based applications for finance processes",
     tech: ["Java", "Spring MVC", "Oracle DB"],
   },
