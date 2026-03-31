@@ -28,6 +28,16 @@ export const skills = [
 
 export const projects = [
   {
+    type: "backend",
+    title: "Sistem Post Comment",
+    desc: "Sistem ini adalah aplikasi microservices dengan tiga service utama - Auth, Post, dan Comment - yang semuanya diakses melalui Kong API Gateway. Auth Service bertindak sebagai publisher RabbitMQ, sehingga setiap kali nama user diupdate, event langsung di-broadcast ke Post dan Comment Service melalui fanout exchange tanpa Auth perlu tahu siapa yang mendengarkan. Post Service mengekspos gRPC server yang digunakan Comment Service untuk memvalidasi apakah sebuah post ID valid sebelum komentar dibuat. Masing-masing service punya database PostgreSQL sendiri agar tidak saling bergantung, sementara Redis dipakai Auth untuk caching dan MinIO dipakai Post untuk menyimpan file.",
+    tech: ["Gin", "PostgreSQL", "RabbitMQ", "Redis", "Docker"],
+    images: [
+      "/portfolio/projects/arsitektur.png",
+    ],
+    repo: "https://github.com/Pangestufp/Post-Comment-System.git",
+  },
+  {
     type: "fullstack",
     title: "Sistem Support Ticket",
     desc: "Aplikasi manajemen tiket support sederhana berbasis web dengan workflow approval bertingkat.",

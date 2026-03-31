@@ -74,7 +74,7 @@ function FullstackCard({ project }) {
       <div className="p-6 text-left">
         <div className="flex items-start justify-between mb-1">
           <div>
-            <p className="text-xs text-indigo-400 uppercase tracking-widest mb-1">Fullstack</p>
+            <p className="text-xs text-indigo-400 uppercase tracking-widest mb-1">{project.type.toUpperCase()}</p>
             <h3 className="text-base font-bold text-white">{project.title}</h3>
           </div>
           <span className={`text-xs font-semibold px-2.5 py-1 rounded-full border shrink-0 ml-4 ${statusStyle[project.status] || statusStyle.Archived}`}>
