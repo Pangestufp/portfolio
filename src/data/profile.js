@@ -27,6 +27,23 @@ export const skills = [
 ]
 
 export const projects = [
+    {
+    type: "fullstack",
+    title: "Sistem E-Commerce",
+    desc: "Platform e-commerce fullstack dengan backend Go (Gin) dan frontend React. Fitur mencakup manajemen produk & inventori, sistem diskon, keranjang belanja, checkout dengan kalkulasi ongkir via RajaOngkir, serta autentikasi JWT dengan role-based access. Menggunakan Elasticsearch untuk pencarian produk dengan fuzzy search, MinIO untuk penyimpanan gambar dengan presigned URL, Redis sebagai cache layer, dan PostgreSQL sebagai database utama. Seluruh infrastruktur dikontainerisasi menggunakan Docker. (Proyek masih dalam pengembangan aktif.)",
+    tech: ["Gin", "React", "PostgreSQL", "Redis", "Docker", "Elastic Search", "MinIO"],
+    images: [
+      "/portfolio/projects/ecommerce-1.png",
+      "/portfolio/projects/ecommerce-2.png",
+      "/portfolio/projects/ecommerce-3.png",
+      "/portfolio/projects/ecommerce-4.png",
+      "/portfolio/projects/ecommerce-5.png",
+      "/portfolio/projects/ecommerce-6.png",
+      "/portfolio/projects/ecommerce-7.png",
+      "/portfolio/projects/ecommerce-8.png",
+    ],
+    repo: "https://github.com/Pangestufp/ecommerce.git",
+  },
   {
     type: "backend",
     title: "Sistem Post Comment",
